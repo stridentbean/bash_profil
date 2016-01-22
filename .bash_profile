@@ -6,11 +6,11 @@ alias ga="git add"
 alias om="origin master"
 alias gpum="git pull upstream master"
 alias gpom="git push origin master"
+alias gcob="git checkout -b"
 alias cl='clear'
 alias serve='python -m SimpleHTTPServer'
 alias prof='vi ~/.bash_profile'
 alias reprof='. ~/.bash_profile'
-. /Users/michaelborglin/Documents/open-source/z/z.sh
 alias testify='. /Users/michaelborglin/Documents/open-source/testify/testify.sh /Users/michaelborglin/Documents/open-source/testify'
 alias gpr='git pull --rebase upstream master'
 
@@ -46,3 +46,4 @@ export PATH
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
+. /c/Users/mborglin/Documents/open-source/z/z.sh
